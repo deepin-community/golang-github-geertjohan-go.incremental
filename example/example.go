@@ -1,13 +1,3 @@
-## go.incremental
-[![Build Status](https://drone.io/github.com/GeertJohan/go.incremental/status.png)](https://drone.io/github.com/GeertJohan/go.incremental/latest)
-Go package incremental provides typed incremental counters that are type-safe.
-
-### Install
-`go get github.com/GeertJohan/go.incremental`
-
-### Usage example
-This example is also located in the example subdirectory
-```go
 package main
 
 import (
@@ -50,4 +40,3 @@ func main() {
 	}
 	fmt.Println("all done")
 }
-```
